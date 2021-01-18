@@ -1,203 +1,202 @@
-<mxfile host="65bd71144e" modified="2021-01-15T15:32:56.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="4wAbME_u5U50-b_5R-f1" type="embed">
+<mxfile host="65bd71144e" modified="2021-01-18T01:54:01.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="lPgazXIhSRRpucrP_2kL" version="13.10.0" type="embed">
     <diagram id="WZRJ1rC4Ot3X-kgHVcsg" name="Page-1">
-        <mxGraphModel dx="492" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1581" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;startArrow=ERone;startFill=0;strokeColor=#FFFFFF;targetPerimeterSpacing=9;endArrow=ERmany;endFill=0;endSize=30;startSize=30;" parent="1" source="41" edge="1">
+                <mxCell id="244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;startSize=20;endArrow=ERmany;endFill=0;endSize=20;entryX=0.07;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="41" target="151">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="521" y="238" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="421" y="240"/>
-                            <mxPoint x="421" y="238"/>
-                        </Array>
+                        <mxPoint x="580" y="670" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" value="usersテーブル" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="40" width="280" height="400" as="geometry"/>
+                <mxCell id="41" value="usersテーブル (ユーザー情報)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="40" width="280" height="320" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
                     <mxGeometry y="40" width="280" height="37" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" parent="42" vertex="1">
-                    <mxGeometry width="120" height="37" as="geometry"/>
+                    <mxGeometry width="160" height="37" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" parent="42" vertex="1">
-                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
+                    <mxGeometry x="160" width="120" height="37" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
                     <mxGeometry y="77" width="280" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="nickname" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="46" vertex="1">
-                    <mxGeometry width="120" height="43" as="geometry"/>
+                    <mxGeometry width="160" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="ニックネーム" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="46" vertex="1">
-                    <mxGeometry x="120" width="160" height="43" as="geometry"/>
+                    <mxGeometry x="160" width="120" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
                     <mxGeometry y="120" width="280" height="42" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="email" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="50" vertex="1">
-                    <mxGeometry width="120" height="42" as="geometry"/>
+                    <mxGeometry width="160" height="42" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="Email" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="50" vertex="1">
-                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                    <mxGeometry x="160" width="120" height="42" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
                     <mxGeometry y="162" width="280" height="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="password" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="68" vertex="1">
-                    <mxGeometry width="120" height="38" as="geometry"/>
+                <mxCell id="69" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;encrypted_password&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="68" vertex="1">
+                    <mxGeometry width="160" height="38" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="パスワード" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="68" vertex="1">
-                    <mxGeometry x="120" width="160" height="38" as="geometry"/>
+                    <mxGeometry x="160" width="120" height="38" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
                     <mxGeometry y="200" width="280" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" value="family_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="64" vertex="1">
-                    <mxGeometry width="120" height="40" as="geometry"/>
+                    <mxGeometry width="160" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="苗字" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="64" vertex="1">
-                    <mxGeometry x="120" width="160" height="40" as="geometry"/>
+                    <mxGeometry x="160" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
-                    <mxGeometry y="240" width="280" height="42" as="geometry"/>
+                    <mxGeometry y="240" width="280" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="61" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;first_name&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="60" vertex="1">
-                    <mxGeometry width="120" height="42" as="geometry"/>
+                    <mxGeometry width="160" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="名前" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="60" vertex="1">
-                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
-                    <mxGeometry y="282" width="280" height="44" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;birth_year&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="84" vertex="1">
-                    <mxGeometry width="120" height="44" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" value="生まれた年" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="84" vertex="1">
-                    <mxGeometry x="120" width="160" height="44" as="geometry"/>
-                </mxCell>
-                <mxCell id="80" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
-                    <mxGeometry y="326" width="280" height="43" as="geometry"/>
-                </mxCell>
-                <mxCell id="81" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;birth_month&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="80" vertex="1">
-                    <mxGeometry width="120" height="43" as="geometry"/>
-                </mxCell>
-                <mxCell id="82" value="生まれた月" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="80" vertex="1">
-                    <mxGeometry x="120" width="160" height="43" as="geometry"/>
+                    <mxGeometry x="160" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
-                    <mxGeometry y="369" width="280" height="31" as="geometry"/>
+                    <mxGeometry y="280" width="280" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;birth_day&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="76" vertex="1">
-                    <mxGeometry width="120" height="31" as="geometry"/>
+                    <mxGeometry width="160" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="生まれた日" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="76" vertex="1">
-                    <mxGeometry x="120" width="160" height="31" as="geometry"/>
+                <mxCell id="78" value="生年月日" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="76" vertex="1">
+                    <mxGeometry x="160" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=30;sourcePerimeterSpacing=0;endArrow=ERmany;endFill=0;endSize=30;targetPerimeterSpacing=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="88" target="151">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=20;endArrow=ERmany;endFill=0;endSize=20;" edge="1" parent="1" source="88" target="151">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="590"/>
+                            <mxPoint x="520" y="590"/>
+                            <mxPoint x="520" y="670"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="88" value="itemsテーブル" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="40" width="280" height="423" as="geometry"/>
+                <mxCell id="260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;startSize=20;endArrow=ERone;endFill=0;endSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="88" target="215">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1270" y="270" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1240" y="160"/>
+                            <mxPoint x="1240" y="258"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;startSize=20;endArrow=ERone;endFill=0;endSize=20;entryX=0.003;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="88" target="229">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1270" y="590" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1180" y="270"/>
+                            <mxPoint x="1180" y="592"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="itemsテーブル (商品情報)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="40" width="280" height="459" as="geometry"/>
                 </mxCell>
                 <mxCell id="89" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="40" width="280" height="37" as="geometry"/>
+                    <mxGeometry y="40" width="280" height="38" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" parent="89" vertex="1">
-                    <mxGeometry width="120" height="37" as="geometry"/>
+                    <mxGeometry width="120" height="38" as="geometry"/>
                 </mxCell>
                 <mxCell id="91" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" parent="89" vertex="1">
-                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="77" width="280" height="43" as="geometry"/>
-                </mxCell>
-                <mxCell id="93" value="image" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="92" vertex="1">
-                    <mxGeometry width="120" height="43" as="geometry"/>
-                </mxCell>
-                <mxCell id="94" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;商品画像&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="92" vertex="1">
-                    <mxGeometry x="120" width="160" height="43" as="geometry"/>
+                    <mxGeometry x="120" width="160" height="38" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="120" width="280" height="42" as="geometry"/>
+                    <mxGeometry y="78" width="280" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="96" value="item_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="95" vertex="1">
-                    <mxGeometry width="120" height="42" as="geometry"/>
+                    <mxGeometry width="120" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="97" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;商品名&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="95" vertex="1">
-                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                    <mxGeometry x="120" width="160" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="101" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FFFFFF;" parent="88" vertex="1">
-                    <mxGeometry y="162" width="280" height="40" as="geometry"/>
+                    <mxGeometry y="121" width="280" height="42" as="geometry"/>
                 </mxCell>
                 <mxCell id="102" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;introduction&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="101" vertex="1">
-                    <mxGeometry width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="103" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;商品の説明&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="101" vertex="1">
-                    <mxGeometry x="120" width="160" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="104" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="202" width="280" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="105" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;category&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="104" vertex="1">
                     <mxGeometry width="120" height="42" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;カテゴリー&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="104" vertex="1">
+                <mxCell id="103" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;商品の説明&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="101" vertex="1">
                     <mxGeometry x="120" width="160" height="42" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="244" width="280" height="44" as="geometry"/>
+                <mxCell id="104" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
+                    <mxGeometry y="163" width="280" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;condition&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="107" vertex="1">
+                <mxCell id="105" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;price&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="104" vertex="1">
+                    <mxGeometry width="120" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;値段&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="104" vertex="1">
+                    <mxGeometry x="120" width="160" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
+                    <mxGeometry y="206" width="280" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;category_id&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="107" vertex="1">
                     <mxGeometry width="120" height="44" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;商品の状態&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="107" vertex="1">
+                <mxCell id="109" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="107" vertex="1">
                     <mxGeometry x="120" width="160" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="110" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="288" width="280" height="42" as="geometry"/>
+                    <mxGeometry y="250" width="280" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;shipping_cost&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="110" vertex="1">
-                    <mxGeometry width="120" height="42" as="geometry"/>
+                <mxCell id="111" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;condition_id&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="110" vertex="1">
+                    <mxGeometry width="120" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;配送料の負担&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="110" vertex="1">
-                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                <mxCell id="112" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="110" vertex="1">
+                    <mxGeometry x="120" width="160" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="113" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="330" width="280" height="31" as="geometry"/>
+                    <mxGeometry y="293" width="280" height="46" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;prefecture_code&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="113" vertex="1">
-                    <mxGeometry width="120" height="31" as="geometry"/>
+                <mxCell id="114" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;shipping_cost_id&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="113" vertex="1">
+                    <mxGeometry width="120" height="46" as="geometry"/>
                 </mxCell>
-                <mxCell id="115" value="&lt;span style=&quot;font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;発送元の地域&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="113" vertex="1">
-                    <mxGeometry x="120" width="160" height="31" as="geometry"/>
+                <mxCell id="115" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="113" vertex="1">
+                    <mxGeometry x="120" width="160" height="46" as="geometry"/>
                 </mxCell>
                 <mxCell id="116" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="361" width="280" height="31" as="geometry"/>
+                    <mxGeometry y="339" width="280" height="34" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;shipping_days&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="116" vertex="1">
-                    <mxGeometry width="120" height="31" as="geometry"/>
+                <mxCell id="117" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;prefecture_id&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="116" vertex="1">
+                    <mxGeometry width="120" height="34" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;発送日までの日数&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="116" vertex="1">
-                    <mxGeometry x="120" width="160" height="31" as="geometry"/>
+                <mxCell id="118" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="116" vertex="1">
+                    <mxGeometry x="120" width="160" height="34" as="geometry"/>
                 </mxCell>
                 <mxCell id="119" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="88" vertex="1">
-                    <mxGeometry y="392" width="280" height="31" as="geometry"/>
+                    <mxGeometry y="373" width="280" height="44" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;price&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="119" vertex="1">
-                    <mxGeometry width="120" height="31" as="geometry"/>
+                <mxCell id="120" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;shipping_days_id&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="119" vertex="1">
+                    <mxGeometry width="120" height="44" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;値段&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="119" vertex="1">
-                    <mxGeometry x="120" width="160" height="31" as="geometry"/>
+                <mxCell id="121" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="119" vertex="1">
+                    <mxGeometry x="120" width="160" height="44" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;startSize=30;sourcePerimeterSpacing=0;endArrow=ERone;endFill=0;endSize=30;targetPerimeterSpacing=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="123" target="76">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="191" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="88">
+                    <mxGeometry y="417" width="280" height="42" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="buysテーブル" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="600" width="280" height="500" as="geometry"/>
+                <mxCell id="192" value="user_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="191">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="191">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;destination&lt;/span&gt;テーブル (住所情報)&lt;/font&gt;" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="280" height="337" as="geometry"/>
                 </mxCell>
                 <mxCell id="124" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
                     <mxGeometry y="40" width="280" height="37" as="geometry"/>
@@ -208,44 +207,8 @@
                 <mxCell id="126" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" parent="124" vertex="1">
                     <mxGeometry x="120" width="160" height="37" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="77" width="280" height="43" as="geometry"/>
-                </mxCell>
-                <mxCell id="128" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;caed_number&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="127" vertex="1">
-                    <mxGeometry width="120" height="43" as="geometry"/>
-                </mxCell>
-                <mxCell id="129" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;クレジットカード番号&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="127" vertex="1">
-                    <mxGeometry x="120" width="160" height="43" as="geometry"/>
-                </mxCell>
-                <mxCell id="130" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="120" width="280" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="131" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;expiration_year&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="130" vertex="1">
-                    <mxGeometry width="120" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="132" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;クレジットカード&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;有効期限年&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="130" vertex="1">
-                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="133" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="162" width="280" height="38" as="geometry"/>
-                </mxCell>
-                <mxCell id="134" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;expiration_month&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="133" vertex="1">
-                    <mxGeometry width="120" height="38" as="geometry"/>
-                </mxCell>
-                <mxCell id="135" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;クレジットカード&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;有効期限月&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="133" vertex="1">
-                    <mxGeometry x="120" width="160" height="38" as="geometry"/>
-                </mxCell>
-                <mxCell id="136" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="200" width="280" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="137" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;security_code&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="136" vertex="1">
-                    <mxGeometry width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="138" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;クレジットカード&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;セキュリティコード&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="136" vertex="1">
-                    <mxGeometry x="120" width="160" height="40" as="geometry"/>
-                </mxCell>
                 <mxCell id="139" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="240" width="280" height="42" as="geometry"/>
+                    <mxGeometry y="77" width="280" height="42" as="geometry"/>
                 </mxCell>
                 <mxCell id="140" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;post_code&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="139" vertex="1">
                     <mxGeometry width="120" height="42" as="geometry"/>
@@ -254,7 +217,7 @@
                     <mxGeometry x="120" width="160" height="42" as="geometry"/>
                 </mxCell>
                 <mxCell id="142" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="282" width="280" height="44" as="geometry"/>
+                    <mxGeometry y="119" width="280" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="143" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;prefecture_code&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="142" vertex="1">
                     <mxGeometry width="120" height="44" as="geometry"/>
@@ -263,7 +226,7 @@
                     <mxGeometry x="120" width="160" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="145" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="326" width="280" height="43" as="geometry"/>
+                    <mxGeometry y="163" width="280" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="146" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;municipality&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="145" vertex="1">
                     <mxGeometry width="120" height="43" as="geometry"/>
@@ -272,7 +235,7 @@
                     <mxGeometry x="120" width="160" height="43" as="geometry"/>
                 </mxCell>
                 <mxCell id="148" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="369" width="280" height="31" as="geometry"/>
+                    <mxGeometry y="206" width="280" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="149" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;address&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="148" vertex="1">
                     <mxGeometry width="120" height="31" as="geometry"/>
@@ -281,7 +244,7 @@
                     <mxGeometry x="120" width="160" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="185" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="400" width="280" height="31" as="geometry"/>
+                    <mxGeometry y="237" width="280" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="186" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;building&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="185" vertex="1">
                     <mxGeometry width="120" height="31" as="geometry"/>
@@ -290,7 +253,7 @@
                     <mxGeometry x="120" width="160" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="182" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="431" width="280" height="31" as="geometry"/>
+                    <mxGeometry y="268" width="280" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="183" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;phone_number&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="182" vertex="1">
                     <mxGeometry width="120" height="31" as="geometry"/>
@@ -299,16 +262,16 @@
                     <mxGeometry x="120" width="160" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="179" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="123" vertex="1">
-                    <mxGeometry y="462" width="280" height="38" as="geometry"/>
+                    <mxGeometry y="299" width="280" height="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="180" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;user&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="179" vertex="1">
+                <mxCell id="180" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;user_id&lt;/font&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="179" vertex="1">
                     <mxGeometry width="120" height="38" as="geometry"/>
                 </mxCell>
                 <mxCell id="181" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="179" vertex="1">
                     <mxGeometry x="120" width="160" height="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="151" value="commentsテーブル" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="600" width="280" height="119" as="geometry"/>
+                <mxCell id="151" value="commentsテーブル (商品に対するコメント)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="720" width="280" height="119" as="geometry"/>
                 </mxCell>
                 <mxCell id="152" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="151" vertex="1">
                     <mxGeometry y="40" width="280" height="37" as="geometry"/>
@@ -327,6 +290,174 @@
                 </mxCell>
                 <mxCell id="160" value="コメント" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="158" vertex="1">
                     <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="categoriesテーブル (カテゴリー)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="40" width="280" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="207">
+                    <mxGeometry y="40" width="280" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="208">
+                    <mxGeometry width="120" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" vertex="1" parent="208">
+                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="207">
+                    <mxGeometry y="77" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;category&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="211">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;カテゴリー&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="211">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="conditionsテーブル (商品の状態)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="200" width="280" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="214">
+                    <mxGeometry y="40" width="280" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="215">
+                    <mxGeometry width="120" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" vertex="1" parent="215">
+                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="214">
+                    <mxGeometry y="77" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;condition&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="218">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;商品の状態&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="218">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34; ; font-weight: 400&quot;&gt;shipping_costs&lt;/span&gt;テーブル (配送料の負担)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="360" width="280" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="40" width="280" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="222">
+                    <mxGeometry width="120" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" vertex="1" parent="222">
+                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="77" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;shipping_cost&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="225">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="&lt;font color=&quot;#ffffff&quot; face=&quot;hiragino sans&quot;&gt;配送料の負担&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="225">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34; ; font-weight: 400&quot;&gt;prefectures&lt;/span&gt;テーブル (発送元の地域)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="520" width="280" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="228">
+                    <mxGeometry y="40" width="280" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="229">
+                    <mxGeometry width="120" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" vertex="1" parent="229">
+                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="228">
+                    <mxGeometry y="77" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;prefecture&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="263">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;発送元の地域&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="263">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34; ; font-weight: 400&quot;&gt;shipping_days&lt;/span&gt;テーブル (発送元の地域)" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="680" width="280" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="235">
+                    <mxGeometry y="40" width="280" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="236">
+                    <mxGeometry width="120" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" vertex="1" parent="236">
+                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="235">
+                    <mxGeometry y="77" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;shipping_days&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="239">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;発送日までの日数&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="239">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0;endSize=20;startSize=20;" edge="1" parent="1" source="139" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=20;endArrow=ERmany;endFill=0;endSize=20;" edge="1" parent="1" source="46" target="92">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;startSize=20;endArrow=ERone;endFill=0;endSize=20;entryX=0.565;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="247" target="191">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1000" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="247" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;font face=&quot;Menlo, Monaco, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;images&lt;/span&gt;&lt;/font&gt;テーブル (商品画像)&lt;/font&gt;" style="shape=table;html=1;whiteSpace=wrap;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="799" width="280" height="161" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="247">
+                    <mxGeometry y="40" width="280" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="249" value="カラム名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="248">
+                    <mxGeometry width="120" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="概要" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF0000;" vertex="1" parent="248">
+                    <mxGeometry x="120" width="160" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="247">
+                    <mxGeometry y="77" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;image&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="251">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;hiragino sans&amp;#34;&quot;&gt;発送日までの日数&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="251">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="247">
+                    <mxGeometry y="119" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;product_id&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="254">
+                    <mxGeometry width="120" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="254">
+                    <mxGeometry x="120" width="160" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;startSize=20;endArrow=ERone;endFill=0;endSize=20;" edge="1" parent="1" source="89" target="208">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=-0.124;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERmany;startFill=0;startSize=20;endArrow=ERone;endFill=0;endSize=20;" edge="1" parent="1" source="104" target="225">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1210" y="224"/>
+                            <mxPoint x="1210" y="432"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;startSize=20;endArrow=ERone;endFill=0;endSize=20;" edge="1" parent="1" source="113" target="236">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1160" y="356"/>
+                            <mxPoint x="1160" y="738"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=20;endArrow=ERmany;endFill=0;endSize=20;" edge="1" parent="1" source="46" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
