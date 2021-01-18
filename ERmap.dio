@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e" modified="2021-01-18T11:52:42.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="HXdYew6yDk7bR5QZTl5s" version="13.10.0" type="embed">
+<mxfile host="65bd71144e" modified="2021-01-18T11:54:47.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="aiqWDZbK1KVVjpEVoR_2" version="13.10.0" type="embed">
     <diagram id="WZRJ1rC4Ot3X-kgHVcsg" name="Page-1">
         <mxGraphModel dx="1186" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
@@ -76,7 +76,7 @@
                 <mxCell id="277" value="&lt;span&gt;first_name_kana&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="276">
                     <mxGeometry width="160" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="278" value="&lt;span&gt;名前　カナ&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="276">
+                <mxCell id="278" value="&lt;span&gt;名前 カナ&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="276">
                     <mxGeometry x="160" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
