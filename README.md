@@ -14,28 +14,24 @@
 
 ### Association
 - has_many :items
-- has_many :comments
 - has_many :histories
-- has_one :destination
 
 
 ## itemsテーブル
-| Column             | Type       | Options                        |
-| ------------------ | ---------- | ------------------------------ |
-| item_name          | string     | null: false                    |
-| introduction       | text       | null: false                    |
-| price              | integer    | null: false                    |
-| category_id        | integer    | null: false                    |
-| condition_id       | integer    | null: false                    |
-| shipping_cost_id   | integer    | null: false                    |
-| prefecture_id      | integer    | null: false                    |
-| shipping_days_id   | integer    | null: false                    |
-| user_id            | integer    | null: false, foreign_key: true |
+| Column           | Type       | Options                        |
+| ---------------- | ---------- | ------------------------------ |
+| name             | string     | null: false                    |
+| introduction     | text       | null: false                    |
+| price            | integer    | null: false                    |
+| category_id      | integer    | null: false                    |
+| condition_id     | integer    | null: false                    |
+| shipping_cost_id | integer    | null: false                    |
+| prefecture_id    | integer    | null: false                    |
+| shipping_day_id  | integer    | null: false                    |
+| user_id          | integer    | null: false, foreign_key: true |
 
 ### Association
-- has_many :images
-- has_many :comments
-- has_many :histories
+- has_one :history
 - belongs_to_active_hash :category
 - belongs_to_active_hash :condition
 - belongs_to_active_hash :shipping_cost
@@ -45,18 +41,19 @@
 
 
 ## destinationsテーブル
-| Column           | Type       | Options                        |
-| ---------------- | ---------- | ------------------------------ |
-| post_code        | string     | null: false                    |
-| prefecture_code  | string     | null: false                    |
-| municipality     | string     | null: false                    |
-| address          | string     | null: false                    |
-| building         | string     |                                |
-| phone_number     | integer    | null: false                    |
-| user_id          | integer    | null: false, foreign_key: true |
+| Column           | Type       | Options     |
+| ---------------- | ---------- | ----------- |
+| post_code        | string     | null: false |
+| municipality     | string     | null: false |
+| address          | string     | null: false |
+| building         | string     |             |
+| phone_number     | string     | null: false |
+| history_id       | integer    | null: false |
+| prefecture_id    | integer    | null: false |
 
 ### Association
-- has_one :user
+- has_one :history
+- belongs_to_active_hash :prefecture
 
 
 ## historiesテーブル
@@ -67,4 +64,5 @@
 
 ### Association
 - belongs_to :user
-- belongs_to :item
+- has_one :item
+- has_one :destination
