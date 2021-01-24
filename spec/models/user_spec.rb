@@ -120,6 +120,26 @@ RSpec.describe User, type: :model do
       @user.valid?
       expect(@user.errors.full_messages).to include("Birth day can't be blank")
     end
-
   end
 end
+
+RSpec.describe User, type: :model do
+  before do
+    @user = FactoryBot.create(:user)
+  end
+
+  describe 'ユーザーログイン' do
+    it "データベースにあるユーザー情報とログイン情報が一致すればログインできること" do
+      expect(@user).to be_valid
+    end
+
+    it "データベースにあるユーザー情報とログイン情報が一致しなければログインできないこと" do
+      @user.email = ""
+      @user.password = ""
+      @user.valid?
+      expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
+    end
+  end
+end
+
+
