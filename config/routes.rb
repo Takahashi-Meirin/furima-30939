@@ -6,7 +6,4 @@ Rails.application.routes.draw do
   # ルートパスへアクセスすると、items/index.html.erbが表示される
   root to: "items#index"
 
-  # ユーザー編集に必要なルーティング
-  resources :users, only: [:edit, :update]
-
 end

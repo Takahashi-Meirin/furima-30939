@@ -35,6 +35,25 @@ RSpec.describe User, type: :model do
       expect(@user.errors.full_messages).to include("Email is invalid")
     end
 
+    it "passwordは半角英語のみでは登録できないこと" do
+      @user.password = "aaaaaa"
+      @user.valid?
+      expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
+    end
+
+    it "passwordは半角数字のみでは登録できないこと" do
+      @user.password = "111111"
+      @user.valid?
+      expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
+    end
+
+    it "passwordは全角では登録できないこと" do
+      @user.password = "AAA111"
+      @user.valid?
+      expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
+    end
+
+
     it "passwordが空では登録できないこと" do
       @user.password = ""
       @user.valid?
@@ -122,24 +141,3 @@ RSpec.describe User, type: :model do
     end
   end
 end
-
-RSpec.describe User, type: :model do
-  before do
-    @user = FactoryBot.create(:user)
-  end
-
-  describe 'ユーザーログイン' do
-    it "データベースにあるユーザー情報とログイン情報が一致すればログインできること" do
-      expect(@user).to be_valid
-    end
-
-    it "データベースにあるユーザー情報とログイン情報が一致しなければログインできないこと" do
-      @user.email = ""
-      @user.password = ""
-      @user.valid?
-      expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
-    end
-  end
-end
-
-
