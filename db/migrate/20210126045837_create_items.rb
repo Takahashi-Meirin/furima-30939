@@ -8,14 +8,15 @@ class CreateItems < ActiveRecord::Migration[6.0]
       # 値段のカラムを作成
       t.integer :price,            null: false
       # カテゴリーのカラムを作成
-      t.integer :category_id,      null:false
+      t.integer :category_id,      null: false
       # 状態のカラムを作成
-      t.integer :condition_id,     null:false
+      t.integer :condition_id,     null: false
       # 配送料の負担のカラムを作成
-      t.integer :shipping_cost_id, null:false
+      t.integer :shipping_cost_id, null: false
       # 発送元の地域のカラムを作成
-      t.integer :prefecture_id,    null:false
-
+      t.integer :prefecture_id,    null: false
+      # 発送までの日数のカラムを作成
+      t.integer :shipping_day_id,  null: false
 
       t.timestamps
     end

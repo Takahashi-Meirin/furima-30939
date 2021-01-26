@@ -8,6 +8,7 @@ class Item < ApplicationRecord
   belongs_to :condition
   belongs_to :shipping_cost
   belongs_to :prefecture
+  belongs_to :shipping_day
 
 
   # 空の場合はDBに保存しない
@@ -18,10 +19,12 @@ class Item < ApplicationRecord
   end
 
   # 選択が「---」の時は保存できないようにする
-  validates :category_id, numericality: { other_than: 1 }
-  validates :condition_id, numericality: { other_than: 1 }
-  validates :shipping_cost_id, numericality: { other_than: 1 }
-  validates :prefecture_id, numericality: { other_than: 1 }
-
+  with_options numericality: { other_than: 1 } do
+    validates :category_id
+    validates :condition_id
+    validates :shipping_cost_id
+    validates :prefecture_id
+    validates :shipping_day_id
+  end
 
 end
