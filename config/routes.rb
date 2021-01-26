@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # ルートパスへアクセスすると、items/index.html.erbが表示される
   root to: "items#index"
 
+  # itemsコントローラーで使用するアクションの定義
+  resources :items, only: [:index, :new, :create]
 end
