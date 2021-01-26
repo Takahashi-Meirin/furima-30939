@@ -50,7 +50,7 @@ class Prefecture < ActiveHash::Base
     {id: 48, name: '沖縄県'}, 
    ]
 
-  # 1つの発送元の地域はたくさんの商品に紐づいている
-  include ActiveHash::Associations
-  has_many :items
-end
+    # 1つの発送元の地域はたくさんの商品に紐づいている
+    include ActiveHash::Associations
+    has_many :items
+  end
