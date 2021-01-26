@@ -9,6 +9,9 @@ class CreateItems < ActiveRecord::Migration[6.0]
       t.integer :price,       null: false
       # カテゴリーのカラムを作成
       t.integer :category_id, null:false
+      # 状態のカラムを作成
+      t.integer :condition_id, null:false
+
 
       t.timestamps
     end

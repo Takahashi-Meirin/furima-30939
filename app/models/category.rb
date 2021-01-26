@@ -15,5 +15,5 @@ class Category < ActiveHash::Base
 
   # 1つのカテゴリーはたくさんの商品に紐づいている
   include ActiveHash::Associations
-  has_many :articles
+  has_many :items
 end
