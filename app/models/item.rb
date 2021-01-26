@@ -5,9 +5,13 @@ class Item < ApplicationRecord
   # ActiveHashを用いてのbelongs_toの設定
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :category
+  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :condition
+  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :shipping_cost
+  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :prefecture
+  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :shipping_day
 
 
@@ -15,7 +19,7 @@ class Item < ApplicationRecord
   with_options presence: true do
     validates :name
     validates :introduction
-    validates :price
+    validates :price, format: {with: \\\d{1,3}(,\d{3})*\b[300-9999999] }
   end
 
   # 選択が「---」の時は保存できないようにする
