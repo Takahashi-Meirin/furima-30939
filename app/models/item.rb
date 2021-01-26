@@ -2,6 +2,10 @@ class Item < ApplicationRecord
   # item.imageで、添付されたファイルにアクセスできるようになる
   has_one_attached :image
 
+  # アソシエーション
+  belongs_to :user
+  has_one :history
+
   # ActiveHashを用いてのbelongs_toの設定
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :category
