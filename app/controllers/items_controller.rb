@@ -3,6 +3,7 @@ class ItemsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create]
 
   def index
+    @items = Item.all
   end
 
   def new
@@ -22,6 +23,6 @@ class ItemsController < ApplicationController
 
   # imageという名前で送られてきた画像ファイルの保存を許可する
   def item_params
-    params.require(:item).permit(:name, :introduction, :price, :category_id, :condition_id, :shipping_cost_id, :prefecture_id, :shipping_day_id, :user_id)
+    params.require(:item).permit(:image, :name, :introduction, :price, :category_id, :condition_id, :shipping_cost_id, :prefecture_id, :shipping_day_id, :user_id).merge(user_id: current_user.id)
   end
 end
