@@ -14,13 +14,12 @@ class Item < ApplicationRecord
   belongs_to :prefecture
   belongs_to :shipping_day
 
-
   # 空の場合はDBに保存しない
   with_options presence: true do
     validates :name
     validates :introduction
     validates :image
-    validates :price, numericality:{only_integer:true,greater_than_or_equal_to:300,less_than_or_equal_to:9999999}
+    validates :price, numericality: { only_integer: true, greater_than_or_equal_to: 300, less_than_or_equal_to: 9_999_999 }
   end
 
   # 選択が「---」の時は保存できないようにする
@@ -31,5 +30,4 @@ class Item < ApplicationRecord
     validates :prefecture_id
     validates :shipping_day_id
   end
-
 end
