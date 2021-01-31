@@ -24,6 +24,6 @@ class ItemsController < ApplicationController
   # 出品する情報の保存を許可する
   def item_params
     params.require(:item).permit(:image, :name, :introduction, :price, :category_id, :condition_id, :shipping_cost_id,
-                                 :prefecture_id, :shipping_day_id, :user_id).merge(user_id: current_user.id)
+                                 :prefecture_id, :shipping_day_id ).merge(user_id: current_user.id)
   end
 end
