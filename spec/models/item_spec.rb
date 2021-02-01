@@ -12,6 +12,7 @@ RSpec.describe Item, type: :model do
       end
     end
 
+    
     context '保存ができない時' do
       it 'nameが空だと保存できないこと' do
         @item.name = ''
