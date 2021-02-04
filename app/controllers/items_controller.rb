@@ -1,6 +1,8 @@
 class ItemsController < ApplicationController
-  # ログインしていないユーザーが商品出品ページへ遷移しようとすると、ログインページへリダイレクトする
-  before_action :authenticate_user!, only: [:new, :create]
+  # ログインしていないユーザーが許可されていないページへ遷移しようとすると、ログインページへリダイレクトする
+  before_action :authenticate_user!, only: [:new, :create, :edit]
+  # 出品者以外のログインユーザーが編集画面へ遷移しようとすると、トップページへリダイレクトする
+  before_action :move_to_index, only: [:edit]
 
   def index
     @items = Item.all.order(id: 'DESC')
@@ -43,4 +45,12 @@ class ItemsController < ApplicationController
     params.require(:item).permit(:image, :name, :introduction, :price, :category_id, :condition_id, :shipping_cost_id,
                                  :prefecture_id, :shipping_day_id).merge(user_id: current_user.id)
   end
+
+  def move_to_index
+    @item = Item.find(params[:id])
+    unless @item.user_id == current_user.id
+      redirect_to action: :index
+    end
+  end
+
 end
