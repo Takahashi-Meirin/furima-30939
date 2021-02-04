@@ -1,10 +1,10 @@
 class ItemsController < ApplicationController
-  # findをまとめる
+  # findメソッドをまとめる
   before_action :set_item, only: [:edit, :show, :update]
   # ログインしていないユーザーが許可されていないページへ遷移しようとすると、ログインページへリダイレクトする
-  before_action :authenticate_user!, only: [:new, :create, :edit]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update]
   # 出品者以外のログインユーザーが編集画面へ遷移しようとすると、トップページへリダイレクトする
-  before_action :move_to_index, only: [:edit]
+  before_action :move_to_index, only: [:edit, :update]
 
   def index
     @items = Item.all.order(id: 'DESC')
@@ -38,7 +38,7 @@ class ItemsController < ApplicationController
   end
 
   private
-
+  # 特定のitem情報の検索するコードをまとめる
   def set_item
     @item = Item.find(params[:id])
   end
@@ -49,8 +49,8 @@ class ItemsController < ApplicationController
                                  :prefecture_id, :shipping_day_id).merge(user_id: current_user.id)
   end
 
+  # 出品者以外のログインユーザーが編集画面へ遷移しようとすると、トップページへリダイレクトする
   def move_to_index
-    @item = Item.find(params[:id])
     redirect_to action: :index unless @item.user_id == current_user.id
   end
 end
