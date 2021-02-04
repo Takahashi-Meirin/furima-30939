@@ -1,4 +1,6 @@
 class ItemsController < ApplicationController
+  # findをまとめる
+  before_action :set_item, only: [:edit, :show, :update]
   # ログインしていないユーザーが許可されていないページへ遷移しようとすると、ログインページへリダイレクトする
   before_action :authenticate_user!, only: [:new, :create, :edit]
   # 出品者以外のログインユーザーが編集画面へ遷移しようとすると、トップページへリダイレクトする
@@ -22,15 +24,12 @@ class ItemsController < ApplicationController
   end
 
   def edit
-    @item = Item.find(params[:id])
   end
 
   def show
-    @item = Item.find(params[:id])
   end
 
   def update
-    @item = Item.find(params[:id])
     if @item.update(item_params)
       redirect_to item_path
     else
@@ -39,6 +38,10 @@ class ItemsController < ApplicationController
   end
 
   private
+
+  def set_item
+    @item = Item.find(params[:id])
+  end
 
   # 出品する情報の保存を許可する
   def item_params
