@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   root to: "items#index"
 
   # itemsコントローラーで使用するアクションの定義
-  resources :items, only: [:index, :new, :create, :show]
+  resources :items, only: [:index, :new, :create, :show, :edit]
 end

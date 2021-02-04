@@ -6,10 +6,6 @@ class ItemsController < ApplicationController
     @items = Item.all.order(id: 'DESC')
   end
 
-  def new
-    @item = Item.new
-  end
-
   def create
     @item = Item.new(item_params)
     if @item.save
@@ -17,6 +13,14 @@ class ItemsController < ApplicationController
     else
       render :new
     end
+  end
+
+  def new
+    @item = Item.new
+  end
+
+  def edit
+    @item = Item.find(params[:id])
   end
 
   def show
