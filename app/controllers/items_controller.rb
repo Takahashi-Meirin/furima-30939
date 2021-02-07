@@ -2,9 +2,9 @@ class ItemsController < ApplicationController
   # findメソッドをまとめる
   before_action :set_item, only: [:edit, :show, :update, :destroy]
   # ログインしていないユーザーが許可されていないページへ遷移しようとすると、ログインページへリダイレクトする
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
   # 出品者以外のログインユーザーが編集画面へ遷移しようとすると、トップページへリダイレクトする
-  before_action :move_to_index, only: [:edit, :update]
+  before_action :move_to_index, only: [:edit, :update, :destroy]
 
   def index
     @items = Item.all.order(id: 'DESC')
