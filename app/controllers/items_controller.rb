@@ -43,6 +43,7 @@ class ItemsController < ApplicationController
   end
 
   private
+
   # 特定のitem情報の検索するコードをまとめる
   def set_item
     @item = Item.find(params[:id])
