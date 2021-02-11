@@ -8,4 +8,8 @@ Rails.application.routes.draw do
 
   # itemsコントローラーで使用するアクションの定義
   resources :items
+
+  # ordersコントローラーで使用するアクションの定義
+  resources :orders, only:[:create]
+  
 end

@@ -1,9 +1,9 @@
 class Order < ApplicationRecord
   # トークンの値を取り扱えるとうにする
-  # attr.accessor :token
+  attr.accessor :token
   # 空の場合はDBに保存しない
-  # validates :price, presence: true
-  # validates :token, presence: true
+  validates :price, presence: true
+  validates :token, presence: true
 
   # ActiveModel::Modelを呼び出し
   include ActiveModel::Model
