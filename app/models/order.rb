@@ -29,4 +29,5 @@ class Order < ApplicationRecord
     Histories.create(user_id: user_id, item_id: item_id)
   end
 
+  
 end
