@@ -35,7 +35,8 @@
         <%# 商品購入機能実装後に記載 %>
       <%# <% elsif "商品が出品中かどうか" %> 
       <% else %>
-        <%= link_to '購入画面に進む', orders_path(@item.id) ,class:"item-red-btn" %>
+      
+        <%= link_to '購入画面に進む', item_orders_path(@order.id), method: :get,class:"item-red-btn" %>
         <%# //商品購入機能実装後に記載 %>
       <% end %>
     <% end %>
