@@ -1,14 +1,15 @@
 class OrdersController < ApplicationController
 
   def index
-    @order = Order.new
+    @destination = Destination.new
   end
 
   def create
-    @order = Order.new(order_params)
-    if @order.valid?
+    binding.pry
+    @destination = Destination.new(destination_params)
+    if @destination.valid?
       pay_item
-      @order.save
+      @destination.save
       return redirect_to root_path
     else 
         render 'index'
@@ -17,15 +18,15 @@ class OrdersController < ApplicationController
 
   private
 
-  def order_params
-    params.require(:order).permit(:price).merge(token: params[:token])
+  def destination_params
+    params.require(:destination).permit(:price).merge(token: params[:token])
   end
 
   def pay_item
     Payjp.api_key = ENV["PAYJP_SECRET_KEY"]
     Payjp::Charge.create(
-      amount: order_params[:price],
-      card: order_params[:token],
+      amount: destination_params[:price],
+      card: destination_params[:token],
       currency: 'jpy'
     )
   end

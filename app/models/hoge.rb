@@ -1,4 +1,4 @@
-class Order < ApplicationRecord
+class Hoge 
   # トークンの値を取り扱えるとうにする
   attr.accessor :token
   # 空の場合はDBに保存しない
@@ -28,6 +28,4 @@ class Order < ApplicationRecord
     Destination.create(post_code: post_code, municipality: municipality, address: address, building: building, phone_number: phone_number, perfecture_id: perfecture_id)
     Histories.create(user_id: user_id, item_id: item_id)
   end
-
-  
 end
