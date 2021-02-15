@@ -5,12 +5,11 @@ class OrdersController < ApplicationController
   end
 
   def create
-    binding.pry
     @destination = Destination.new(destination_params)
-    if @destination.valid?
+    if @order.valid?
       pay_item
-      @destination.save
-      return redirect_to root_path
+      @order.save
+      redirect_to root_path
     else 
         render 'index'
     end
@@ -19,7 +18,7 @@ class OrdersController < ApplicationController
   private
 
   def destination_params
-    params.require(:destination).permit(:price).merge(token: params[:token])
+    params.require(:order).permit(:post_code, :municipality, :address, :building, :phone_number, :prefecture_id, :histpry_id, :user_id, :item_id)
   end
 
   def pay_item
