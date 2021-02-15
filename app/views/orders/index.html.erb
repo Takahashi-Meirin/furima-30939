@@ -32,7 +32,7 @@
     <%# /支払額の表示 %>
 
     <%# フォームに入力した全ての情報がparamsに入る %>
-    <%= form_with(model: @order, id: 'charge-form', class: 'transaction-form-wrap',local: true) do |f| %>
+    <%= form_with(model: @destination, url: item_orders_path, id: 'charge-form', class: 'transaction-form-wrap',local: true) do |f| %>
 
     <%= render 'shared/error_messages', model: @destination %>
 
