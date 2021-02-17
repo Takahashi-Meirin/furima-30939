@@ -14,7 +14,7 @@ class CreateDestinations < ActiveRecord::Migration[6.0]
       # 配送先の地域のカラムを作成
       t.integer :prefecture_id, null: false
       # history_idカラムを外部キー制約でつける
-      t.integer :history_id,    null: false
+      t.references :history,    null: false, foreign_key: true
 
       t.timestamps
     end
