@@ -14,12 +14,13 @@ const pay = () => {
 
     // クレジットカードに関する情報を取得し、変数cardに代入するオブジェクトとして定義する
     const card ={
-      number: formData.get("destination[number]"),
-      cvc: formData.get("destination[exp_month]"),
-      exp_month: formData.get("destination[exp_year]"),
-      exp_year: `20${formData.get("destination[cvc]")}`,
+      number: formData.get("order[number]"),
+      cvc: formData.get("order[cvc]"),
+      exp_month: formData.get("order[exp_month]"),
+      exp_year: `20${formData.get("order[exp_year]")}`,
     };
 
+    console.log(card)
     // カード情報をトークン化する
     Payjp.createToken(card, (status, response) => {
       if (status == 200) {
@@ -28,7 +29,7 @@ const pay = () => {
         // フォームの要素を取得
         const renderDom = document.getElementById("charge-form");
         // HTMLのinput要素にトークンの値を埋め込み、フォームに追加(非表示)
-        const tokenObj = `<input value=${token} name='token'　type="hidden"> `;
+        const tokenObj = `<input value=${token} name='token' type="hidden"> `;
         // フォームの中に作成したinput要素を追加
         renderDom.insertAdjacentHTML("beforeend", tokenObj);
       }
