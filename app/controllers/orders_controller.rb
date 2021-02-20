@@ -42,15 +42,13 @@ class OrdersController < ApplicationController
     )
   end
 
-
   def set_item
     @item = Item.find(params[:item_id])
   end
-  
 
   # ログインユーザーが売却済の商品購入画面へ遷移しようとすると、トップページへリダイレクトする
   def move_to_index
-    if @item.history.present?
+    if user_signed_in? && @item.history.present?
       redirect_to root_path 
     end
   end
