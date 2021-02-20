@@ -1,8 +1,8 @@
 class OrdersController < ApplicationController
   # ログインしていないユーザーが許可されていないページへ遷移しようとすると、ログインページへリダイレクトする
-  before_action :authenticate_user!, only: [:create]
-  # 出品者以外のログインユーザーが購入画面へ遷移しようとすると、トップページへリダイレクトする
-  before_action :move_to_index, only: [:create]
+  before_action :authenticate_user!, only: [:index, :create]
+  # ログインユーザーが売却済の商品購入画面へ遷移しようとすると、トップページへリダイレクトする
+  before_action :move_to_index, only: [:index, :create]
 
   def index
     @item = Item.find(params[:item_id])
@@ -43,9 +43,11 @@ class OrdersController < ApplicationController
     )
   end
 
-  # 出品者以外のログインユーザーが編集画面へ遷移しようとすると、トップページへリダイレクトする
+  # ログインユーザーが売却済の商品購入画面へ遷移しようとすると、トップページへリダイレクトする
   def move_to_index
     @item = Item.find(params[:item_id])
-    redirect_to root_path unless @item.user_id != current_user.id
+    if @item.history.present?
+      redirect_to root_path 
+    end
   end
 end
