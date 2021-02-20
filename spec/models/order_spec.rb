@@ -50,12 +50,16 @@ RSpec.describe Order, type: :model do
       @order.valid?
       expect(@order.errors.full_messages).to include('Phone number is invalid')
     end
+    it 'phone_numberが英数混合では保存できないこと' do
+      @order.phone_number = 'abc1234'
+      @order.valid?
+      expect(@order.errors.full_messages).to include('Phone number is invalid')
+    end
     it 'prefecture_idが1だと保存できないこと' do
       @order.prefecture_id = 1
       @order.valid?
       expect(@order.errors.full_messages).to include('Prefecture must be other than 1')
     end
-
     it 'userが紐づいていないと保存できないこと' do
       @order.user_id = ''
       @order.valid?
@@ -66,7 +70,6 @@ RSpec.describe Order, type: :model do
       @order.valid?
       expect(@order.errors.full_messages).to include("Item can't be blank")
     end
-
     it 'tokenが空では保存できないこと' do
       @order.token = ''
       @order.valid?
