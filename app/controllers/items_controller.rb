@@ -60,7 +60,8 @@ class ItemsController < ApplicationController
 
   # 出品者以外のログインユーザーが編集画面へ遷移しようとする、また購入済の商品の編集画面へ遷移しようとすると、トップページへリダイレクトする
   def move_to_index
-    if @item.history.present? && (@item.user_id ！= current_user.id)
+    if @item.user_id == current_user.id && @item.history.present?
       redirect_to root_path 
     end
+  end
 end
