@@ -48,7 +48,7 @@ class OrdersController < ApplicationController
 
   # ログインユーザーが売却済の商品購入画面へ遷移しようとすると、トップページへリダイレクトする
   def move_to_index
-    if user_signed_in? && @item.history.present?
+    if (current_user.id == @item.user.id) && @item.history.present?
       redirect_to root_path 
     end
   end
