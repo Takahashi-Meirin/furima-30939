@@ -3,7 +3,8 @@ class Order
   include ActiveModel::Model
 
   # 保存したい複数のテーブルのカラム名を全て扱えるようにする,トークンの値を取り扱えるようにする
-  attr_accessor :post_code, :municipality, :address, :building, :phone_number, :prefecture_id, :history_id, :user_id, :item_id, :token
+  attr_accessor :post_code, :municipality, :address, :building, :phone_number, :prefecture_id, :history_id, :user_id, :item_id,
+                :token
 
   # 空の場合はDBに保存しない
   with_options presence: true do
@@ -16,12 +17,13 @@ class Order
     validates :token
   end
 
-    # 選択が「---」の時は保存できないようにする
-    validates :prefecture_id, numericality: { other_than: 1 }
+  # 選択が「---」の時は保存できないようにする
+  validates :prefecture_id, numericality: { other_than: 1 }
 
-  #データを各テーブルに保存する処理 
+  # データを各テーブルに保存する処理
   def save
     history = History.create(user_id: @user_id, item_id: @item_id)
-    Destination.create(post_code: post_code, municipality: municipality, address: address, building: building, phone_number: phone_number, prefecture_id: prefecture_id, history_id: history.id)
+    Destination.create(post_code: post_code, municipality: municipality, address: address, building: building,
+                       phone_number: phone_number, prefecture_id: prefecture_id, history_id: history.id)
   end
 end

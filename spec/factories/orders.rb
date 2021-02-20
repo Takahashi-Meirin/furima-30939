@@ -6,6 +6,6 @@ FactoryBot.define do
     building      { '例マンション' }
     phone_number  { '09012345678' }
     prefecture_id { 2 }
-    token         { "tok_abcdefghijk00000000000000000" }
+    token         { 'tok_abcdefghijk00000000000000000' }
   end
 end
