@@ -21,7 +21,7 @@ class Order
 
   #データを各テーブルに保存する処理 
   def save
-    History.create(user_id: @user_id, item_id: @item_id)
-    Destination.create(post_code: post_code, municipality: municipality, address: address, building: building, phone_number: phone_number, prefecture_id: prefecture_id, history_id: history_id)
+    history = History.create(user_id: @user_id, item_id: @item_id)
+    Destination.create(post_code: post_code, municipality: municipality, address: address, building: building, phone_number: phone_number, prefecture_id: prefecture_id, history_id: history.id)
   end
 end
