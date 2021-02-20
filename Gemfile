@@ -66,3 +66,7 @@ gem 'active_hash'
 
 gem 'rubocop', require:false
 gem 'rubocop-rails', require:false
+
+gem 'payjp'
+
+gem 'pry-rails'

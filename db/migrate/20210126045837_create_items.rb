@@ -19,7 +19,7 @@ class CreateItems < ActiveRecord::Migration[6.0]
       t.integer :shipping_day_id,  null: false
       # user_idカラムを外部キー制約でつける
       t.references :user,          foreign_key: true
-
+      
       t.timestamps
     end
   end
