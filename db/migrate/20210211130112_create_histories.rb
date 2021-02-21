@@ -1,5 +1,6 @@
 class CreateHistories < ActiveRecord::Migration[6.0]
   def change
+
     create_table :histories do |t|
       # user_idカラムを外部キー制約でつける
       t.references :user,    null: false, foreign_key: true
@@ -8,5 +9,6 @@ class CreateHistories < ActiveRecord::Migration[6.0]
       
       t.timestamps
     end
+    
   end
 end
