@@ -2,8 +2,6 @@ window.addEventListener('load', () => {
   // 商品出品機能ページは金額が入力されたときにイベント発火する
   // 金額を入力した数値を変数に格納する
   const priceInput = document.getElementById("item-price");
-  // priceGetがnullの場合、それ以降のコードを読まないようにする
-  if (!priceGet){ return false;}
   // 入力するたびにイベント発火
     priceInput.addEventListener("input", () => {
       // value属性の取得
