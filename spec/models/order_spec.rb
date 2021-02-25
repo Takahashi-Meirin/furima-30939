@@ -56,7 +56,7 @@ RSpec.describe Order, type: :model do
       @order.valid?
       expect(@order.errors.full_messages).to include('Phone number is invalid')
     end
-    
+
     it 'prefecture_idが1だと保存できないこと' do
       @order.prefecture_id = 1
       @order.valid?

@@ -3,8 +3,10 @@ class ItemsController < ApplicationController
   before_action :set_item, only: [:edit, :show, :update, :destroy]
   # ログインしていないユーザーが許可されていないページへ遷移しようとすると、ログインページへリダイレクトする
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
-  # 出品者以外のログインユーザーが編集画面へ遷移しようとする、また購入済の商品の編集画面へ遷移しようとすると、トップページへリダイレクトする
-  before_action :move_to_index, only: [:edit, :update, :destroy]
+  # ログイン状態の出品者以外のユーザーは、URLを直接入力して出品していない商品の商品情報編集ページへ遷移しようとすると、トップページに遷移する
+  before_action :no_seller_move_to_index, only: [:edit, :update, :destroy]
+  # 出品者・出品者以外にかかわらず、ログイン状態のユーザーが、URLを直接入力して売却済み商品の商品情報編集ページへ遷移しようとすると、トップページに遷移する
+  before_action :login_user_move_to_index, only: [:edit, :update, :destroy]
 
   def index
     @items = Item.all.order(id: 'DESC')
@@ -58,10 +60,13 @@ class ItemsController < ApplicationController
                                  :prefecture_id, :shipping_day_id).merge(user_id: current_user.id)
   end
 
-  # 出品者以外のログインユーザーが編集画面へ遷移しようとする、また購入済の商品の編集画面へ遷移しようとすると、トップページへリダイレクトする
-  def move_to_index
-    if @item.user_id == current_user.id && @item.history.present?
-      redirect_to root_path 
-    end
+  # ログイン状態の出品者以外のユーザーは、URLを直接入力して出品していない商品の商品情報編集ページへ遷移しようとすると、トップページに遷移する
+  def no_seller_move_to_index
+    redirect_to root_path if @item.user_id != current_user.id
+  end
+
+  # 出品者・出品者以外にかかわらず、ログイン状態のユーザーが、URLを直接入力して売却済み商品の商品情報編集ページへ遷移しようとすると、トップページに遷移する
+  def login_user_move_to_index
+    redirect_to root_path if @item.history.present?
   end
 end

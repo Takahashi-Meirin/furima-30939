@@ -2,8 +2,10 @@ class OrdersController < ApplicationController
   before_action :set_item
   # ログインしていないユーザーが許可されていないページへ遷移しようとすると、ログインページへリダイレクトする
   before_action :authenticate_user!, only: [:index, :create]
-  # ログインユーザーが売却済の商品購入画面へ遷移しようとすると、トップページへリダイレクトする
-  before_action :move_to_index, only: [:index, :create]
+  # ログイン状態のユーザーが、URLを直接入力して売却済み商品の商品購入ページへ遷移しようとするとトップページに遷移する
+  before_action :login_user_move_to_index, only: [:index, :create]
+  # ログイン状態の出品者が、URLを直接入力して自身の出品した商品購入ページに遷移しようとするとトップページに遷移する
+  before_action :seller_move_to_index, only: [:index, :create]
 
   def index
     @order = Order.new
@@ -46,10 +48,13 @@ class OrdersController < ApplicationController
     @item = Item.find(params[:item_id])
   end
 
-  # ログインユーザーが売却済の商品購入画面へ遷移しようとすると、トップページへリダイレクトする
-  def move_to_index
-    if (current_user.id == @item.user.id) && @item.history.present?
-      redirect_to root_path 
-    end
+  # ログイン状態のユーザーが、URLを直接入力して売却済み商品の商品購入ページへ遷移しようとするとトップページに遷移する
+  def login_user_move_to_index
+    redirect_to root_path if @item.history.present?
+  end
+
+  # ログイン状態の出品者が、URLを直接入力して自身の出品した商品購入ページに遷移しようとするとトップページに遷移する
+  def seller_move_to_index
+    redirect_to root_path if current_user.id == @item.user.id
   end
 end
